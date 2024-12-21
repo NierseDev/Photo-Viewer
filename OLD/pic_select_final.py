@@ -168,7 +168,7 @@ class Main(tk.Tk):
         #Get the current screen width and height
         screen_width = self.winfo_screenwidth()
         screen_height = self.winfo_screenheight()
-        print("Resolution: ",(screen_width,screen_height))
+        print("Resolution: ",(screen_width, screen_height))
         self.geometry(f'{screen_width}x{screen_height}')
 
         # widgets 
